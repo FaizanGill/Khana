@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+   
+    <link rel="stylesheet" media="screen and (max-width: 1100px" href="CSS/phone.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap" rel="stylesheet">
+    <title>MyOnlineMeal.Com</title>
+    <style>
+  
+        
+
+
+
+        /* Clients-section */
+      #Clients-section{
+        height: 235px;
+
+       
+
+      }  
+      #clients{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+      .client-item{
+
+        padding: 10px 14px;
+      }
+        .client-item img {
+    height: 100px;
+    width: 100px;
+}
+
+#Clients-section::before {
+    content: "";
+    background: url(client-bkg.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 35%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+
+
+
+/* #contact-box input,
+#contact-box textarea{
+
+    width: 100%;
+    padding: 0.2rem;
+    border-radius: 6px;
+}
+#contact-box{
+    margin: 0px 430px;
+}
+.contact-box form{
+    width
+    
+    /* Contact Section */
+    .contact_heading{
+        font-size: 2.8rem;
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    }
+    #contact-box input,
+#contact-box textarea{
+
+    width: 100%;
+    padding: 0.2rem;
+    border-radius: 6px;
+}
+
+#contact {
+    /* height: 400px; */
+    margin-top: 30px;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+#contact-box form{
+    width: 40%;
+}
+
+#contact::before {
+    content: "";
+    background: url(contacts-bkg.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 58%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+
+button{
+    align-items: center;
+}
+
+
+
+#footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="logo">
+            <img src="mota2.png" alt="Usman Shakoor">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <section id="home">
+        <h1 class="main_heading">WelcometoMyOnlineMeal</h1>
+        <div class="para">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt amet quo at aspernatur sed harum delectus
+                illo
+                quia vel dolorum eaque.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos hic vel aliquid mollitia iste magni, illum
+                dolorum.</p>
+        </div>
+        <button class="btn">Order Now</button>
+    </section>
+
+
+
+
+
+    <section id="Our_Services">
+        <h1 id="Home_heading">Our Services</h1>
+        <div id="services">
+            <div class="box"><img src="pizza12.png" alt="Can't load">
+                <h1>Food Catering</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde natus consequatur amet
+                    autem ab molestias fugiat repudiandae repellendus, veniam repellat illo facere dolorem veritatis,
+                    magni maxime. Iste, expedita voluptatem! Veniam nostrum perspiciatis doloribus vero.</p>
+            </div>
+            <div class="box"><img src="pizza12.png" alt="Can't load">
+                <h1>Bulk Ordering</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde natus consequatur amet
+                    autem ab molestias fugiat repudiandae repellendus, veniam repellat illo facere dolorem veritatis,
+                    magni maxime. Iste, expedita voluptatem! Veniam nostrum perspiciatis doloribus vero.</p>
+            </div>
+            <div class="box"><img src="pizza12.png" alt="Can't load">
+                <h1>Home Delivery</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde natus consequatur amet
+                    autem ab molestias fugiat repudiandae repellendus, veniam repellat illo facere dolorem veritatis,
+                    magni maxime. Iste, expedita voluptatem! Veniam nostrum perspiciatis doloribus vero.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="Clients-section">
+       <h1 id="Home_heading">Our Clients</h1>        
+        <div id="clients">
+            <div class="client-item"  ><img src="/skype.png" alt="Our Clients" ></div>
+            <div class="client-item"><img src="/Alibaba.png" alt="Our Clients"></div>
+            <div class="client-item"><img src="/Alibaba.png" alt="Our Clients"></div>
+            <div class="client-item"><img src="/skype.png" alt="Our Clients"></div>
+        </div>
+    </section>
+
+
+
+
+    <section id="contact">
+        <h1 id="Home_heading">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+        <div class="contact-form">
+            <label for="name"><strong>Name</strong></label>
+            <input type="text" name="name" placeholder="Enter your Name"></div>
+            <div class="contact-form">
+            <label for="num"><strong>Phone</strong></label>
+            <input type="phone" name="num" placeholder="Enter your Number"></div>
+            <div class="contact-form">
+            <label for="email" ><strong>Email</strong></label>
+            <input type="email" name="email" placeholder="Enter your email">
+           
+        </div>
+        <div class="contact-form">
+            <label for="message"><strong>Message</strong></label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    </div>  
+</form>  
+    </div>
+        </form>
+
+        <div id="footer">
+
+            <footer class="center">
+            Copyright &copy; www.MyOnlineMeal.com All rights reserved!
+            </footer>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>

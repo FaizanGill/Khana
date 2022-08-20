@@ -1,0 +1,226 @@
+/* CSS Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+/* Navigation Menu */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* justify-content: center; */
+    
+
+
+}
+
+#navbar::before {
+    content: " ";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+
+}
+
+/* Logo and Image */
+#logo img {
+    height: 64px;
+    width: 58px;
+    margin: 11px 26px;
+    margin: 3px 6px;
+}
+
+
+
+/* List styling */
+#navbar ul {
+    display: flex;
+    list-style: none;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+/* #navbar ul li{
+    padding: 0px 10px;
+    
+
+} */
+.item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 0px 9px;
+}
+
+.item a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+
+
+/*Home section */
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 370px;
+    color: white;
+
+
+}
+
+.main_heading {
+
+    font-size: 3.8rem;
+    /* color: white; */
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Bhai 2', cursive;
+
+
+
+
+
+}
+
+.para p {
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+.para {
+    margin: 0px 0px 20px 0px;
+}
+
+
+#home::before {
+    content: "";
+    background: url(../mainb.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    top: 0px;
+}
+
+.btn {
+    padding: 5px 15px;
+    border: 2px solid white;
+    background-color: brown;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.btn:hover {
+    background-color: rgb(184, 82, 82);
+    cursor: pointer;
+}
+
+button {
+    margin: 12px;
+}
+
+
+/* Services Section */
+.Our_Services {
+    height: 424px;
+}
+.Our_Services p{
+    text-align: center;
+}
+
+#Home_heading {
+
+    font-size: 2.8rem;
+    /* color: white; */
+    /* display: flex;
+
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-top: 12px;
+    margin-bottom: 10px; */
+    margin: 12px;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+
+
+
+}
+
+#services {
+    display: flex;
+    margin: 15px;
+
+}
+
+
+.box {
+    border: 2px solid brown;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 23px;
+    border-radius: 23px;
+    margin: 5px;
+    background-color: rgb(244, 240, 234);
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+.box img {
+    height: 85px;
+    background-color: antiquewhite;
+}
+
+.box h1 {
+    padding: 5px;
+    font-size: 1.9rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.center{
+    align-items: center;
+}
+
+
+/* Clients Section */
+/* #Clients-section{
+
+    height: 344px;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+
+
+
+
+
+/* Contact Section */
+
+
+
